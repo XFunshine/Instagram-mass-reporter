@@ -19,11 +19,11 @@ def getOptions(args=sys.argv[1:]):
 
 args = getOptions()
 
-username = args.username
+username = args.ewwwryd
 acc_file = args.file
 
 if username == "" :
-	username = input("Username: ")
+	username = input("ewwwryd: ")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
@@ -52,7 +52,7 @@ for line in range(len(file)+1):
 
     time.sleep(2.0)
 
-    web.go_to("https://www.instagram.com/%s/" % username)
+    web.go_to("https://www.instagram.com/%s/" % ewwwryd)
 
     time.sleep(1.5)
 
